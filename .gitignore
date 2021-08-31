@@ -1,0 +1,10 @@
+config.json
+config/plex-mount/config.json
+config/**
+yarn-error.log
+node_modules
+.vscode
+test
+bin
+obj
+.vs
