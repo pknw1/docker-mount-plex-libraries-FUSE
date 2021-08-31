@@ -17,3 +17,19 @@ from https://github.com/drkno/pfs
 * unmount on down
 * tidy up
 * versions update
+
+```
+docker@:~/dev/pfs$ docker-compose up -d
+Creating plex-mount ... done
+Attaching to plex-mount
+
+docker@:~/dev/pfs$ sudo ls mount/
+plex
+
+docker@:~/dev/pfs$ sudo ls -la mount/plex/
+total 0
+dr--r--r-- 1 docker docker 4096 Aug 14 19:23  Movies
+dr--r--r-- 1 docker docker 4096 Aug 19 12:20  Music
+dr--r--r-- 1 docker docker 4096 Aug 27 01:53 'TV shows'
+
+```
